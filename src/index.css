@@ -2,12 +2,15 @@
   font-family: 'Kenia';
   src: url('/public/Kenia-Regular.ttf');
 }
-
+html {
+  background-color: #35363a;
+}
 body {
   margin: 0;
   font-family: 'Kenia', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #35363a;
 }
 
 code {
@@ -19,4 +22,8 @@ code {
   width: 100%;
   max-width: 720px;
   height: auto;
+}
+
+.App {
+  background-color: #35363a;
 }
